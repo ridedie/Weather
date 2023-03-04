@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#weather h1{
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    font-size: 300px;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 55;
+}
+
+#weather .oval{
+    width: 80%;
+    height: 70%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #weather .temp{
+    font-size: 70px;
+    position: absolute;
+    top: 85%;
+    left: 100px;
+}
+
+  #weather .region{
+    font-size: 70px;
+    position: absolute;
+    top: 85%;
+    right: 50px;
+}
+
+  #date span{
+    font-size: 100px;
+    text-align: center;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.Clear_body{
+  background-color: beige;
+}
+
+.Clear #weather .oval{
+  background-color: aqua;
+}
