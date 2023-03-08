@@ -46,13 +46,37 @@
     top: 83%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 99;
 }
 
-
+/* Clear */
 .Clear_body{
   background-color: beige;
 }
 
 .Clear #weather .oval{
   background-color: aqua;
+}
+
+
+/* Cluds */
+
+
+.Clouds_body{
+  background-color: #b6bfcc;
+}
+
+.Clouds #weather .oval{
+  background-color: #a4b1c4;
+  z-index: -1;
+}
+
+.Clouds #date img{
+  width: 700px;
+  height: 300px;
+  z-index: 9;
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
