@@ -5,6 +5,7 @@ resize();
 
 // 캔버스 사이즈
 function resize() {
+
     ctx.canvas.width = window.innerWidth;
     ctx.canvas.height = window.innerHeight;
 }
@@ -32,7 +33,7 @@ function move() {
     }
 
     for (i = 0; i <= 2; i++) {
-        if (x[i] >= canvas.width) {
+        if (x[i] >= cloudsimg1.width-250) {
             for (j = 0; j <= 2; j++) {
                 vx[j] *= -1;
             }

@@ -11,9 +11,9 @@ function onGeoOk(position) {
             const today = data.weather[0].main;
             const weatherH1 = document.querySelector("#weather h1");
             weatherH1.innerText = data.weather[0].main;
-            const temp = document.querySelector("#weather span:nth-child(3)");
+            const temp = document.querySelector("#weather span:nth-child(2)");
             temp.innerText = Math.floor(data.main.temp - 273.15) + "℃";
-            const region = document.querySelector("#weather span:nth-child(4)");
+            const region = document.querySelector("#weather span:nth-child(3)");
             region.innerText = data.name;
 
             const link =  document.location.pathname;
