@@ -5,7 +5,6 @@ resize();
 
 // 캔버스 사이즈
 function resize() {
-
     ctx.canvas.width = window.innerWidth;
     ctx.canvas.height = window.innerHeight;
 }
@@ -23,6 +22,7 @@ function draw() {
     cloudsimg1.style.transform = `translateX(${x[0]}px)`;
     cloudsimg2.style.transform = `translateX(${x[1]}px)`;
     cloudsimg3.style.transform = `translateX(${x[2]}px)`;
+
 
 }
 

@@ -1,7 +1,6 @@
 
-var canvas = document.querySelector('canvas');
-var ctx = canvas.getContext('2d');
-
+const canvas = document.querySelector('canvas');
+const ctx = canvas.getContext('2d');
 
 function resize() {
     ctx.canvas.width = window.innerWidth;
@@ -19,10 +18,11 @@ document.addEventListener("mousemove", (e) => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     const mouseX = e.clientX;
     const mouseY = e.clientY;
+
+    // 해 만들기
     ctx.beginPath();
     ctx.arc(mouseX, mouseY, 50, 0, 2 * Math.PI);
     ctx.stroke();
-
     ctx.fillStyle = "red";
     ctx.fill();
 

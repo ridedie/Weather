@@ -21,8 +21,6 @@ function onGeoOk(position) {
                 location.replace("Clear.html");
             }else if(link != "/Clouds.html" && today == "Clouds"){
                 location.replace("Clouds.html");
-            }else if(link != "/Drizzie.html" && today == "Drizzie"){
-                location.replace("Drizzie.html");
             }else if(link != "/Rain.html" && today == "Rain"){
                 location.replace("Rain.html");
             }else if(link != "/Snow.html" && today == "Snow"){

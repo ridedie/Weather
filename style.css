@@ -166,3 +166,28 @@ canvas{
   top: 600px;
   left: 50%;
 }
+
+
+/* Rain */
+
+.Rain_body{
+  background-color: rgb(196, 136, 253);
+}
+
+.Rain h1 {
+  font-size: 300px;
+  color: rgb(128, 128, 128);
+}
+
+.Rain #date,
+.Rain .temp,
+.Rain .region
+{
+  font-weight: 400;
+  color: rgb(128, 128, 128);
+}
+
+.Rain #design .RainImg{
+  width: 100px;
+  height: 100px;
+}
