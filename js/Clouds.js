@@ -9,8 +9,7 @@ function resize() {
     ctx.canvas.height = window.innerHeight;
 }
 
-// 그림 이동시키기
-
+// 그림 가져오기, vx-스피드
 let x = [0, 1, 2]
 const vx = [6, 2, 4];
 const cloudsimg1 = document.querySelector('.cloudsimg1');
@@ -22,10 +21,10 @@ function draw() {
     cloudsimg1.style.transform = `translateX(${x[0]}px)`;
     cloudsimg2.style.transform = `translateX(${x[1]}px)`;
     cloudsimg3.style.transform = `translateX(${x[2]}px)`;
-
-
 }
 
+
+// 그림에 스피드값 더하기
 function move() {
     draw();
     for (i = 0; i <= 2; i++) {
@@ -46,7 +45,7 @@ function move() {
 }
 
 
-
+// 그림 1초마다 움직이게 만들기
 function animate() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     move();

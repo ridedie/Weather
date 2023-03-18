@@ -2,18 +2,23 @@
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
+
 function resize() {
     ctx.canvas.width = window.innerWidth;
     ctx.canvas.height = window.innerHeight;
 }
 resize();
 
+
+// 해 스타일 함수로 지정
 function fStyle() {
     ctx.strokeStyle = 'red';
     ctx.lineWidth = 10;
     ctx.stroke();
 }
 
+
+// 해가 마우스 따라다니게 만드는 함수
 document.addEventListener("mousemove", (e) => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     const mouseX = e.clientX;

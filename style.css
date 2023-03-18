@@ -64,10 +64,26 @@ canvas{
     z-index: 99;
 }
 
+
+#design img{
+  width: 550px;
+  height: 300px;
+  z-index: 9;
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Clear */
 
 .Clear_body{
   background-color: rgb(214, 247, 255);
+}
+
+.Clear canvas{
+  width: 100%;
+  height: 100%;
 }
 
 .Clear h1 {
@@ -77,31 +93,10 @@ canvas{
   color: rgb(135, 152, 248);
 }
 
-.Clear .temp{
-  color: rgb(135, 152, 248);
-}
-
-.Clear .region{
-  color: rgb(135, 152, 248);
-}
-
+.Clear .temp,
+.Clear .region,
 .Clear #date{
   color: rgb(135, 152, 248);
-}
-
-.Clear canvas{
-  width: 100%;
-  height: 100%;
-}
-
-.Clear #design .Clear_date{
-  width: 550px;
-  height: 300px;
-  z-index: 9;
-  position: absolute;
-  top: 83%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 
@@ -129,20 +124,9 @@ canvas{
 .Clouds .temp,
 .Clouds .region
 {
-  font-weight: 400;
   color: rgb(255, 102, 209);
 }
 
-.Clouds #design .Clouds_date{
-  width: 550px;
-  height: 300px;
-  z-index: 9;
-  position: absolute;
-  top: 83%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
 
 .Clouds #design .cloudsimg1{
   width: 650px;
@@ -174,16 +158,22 @@ canvas{
   background-color: rgb(196, 136, 253);
 }
 
+.Rain canvas{
+  width: 100%;
+  height: 100%;
+}
+
 .Rain h1 {
   font-size: 300px;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
   color: rgb(128, 128, 128);
 }
 
-.Rain #date,
 .Rain .temp,
-.Rain .region
+.Rain .region,
+.Rain #date
 {
-  font-weight: 400;
   color: rgb(128, 128, 128);
 }
 
@@ -191,3 +181,42 @@ canvas{
   width: 100px;
   height: 100px;
 }
+
+.Rain #design .Rain_date{
+  width: 550px;
+  height: 300px;
+  z-index: 9;
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Snow */
+
+.Snow_body{
+  background-color: #b6bfcc;
+}
+
+.Snow canvas{
+  width: 100%;
+  height: 100%;
+}
+
+.Snow h1 {
+  font-size: 200px;
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  color: rgb(255, 19, 78);
+}
+
+.Snow .temp,
+.Snow .region,
+.Snow #date{
+  color: rgb(255, 19, 78);
+}
+
+
+
+
+
