@@ -1,4 +1,7 @@
-const API_KEY = '';
+
+import{
+    API_KEY
+}from './key.js';
 
 
 function onGeoOk(position) {
