@@ -28,6 +28,8 @@ function onGeoOk(position) {
                 location.replace("/Rain.html");
             }else if(link != "/Snow.html" && today == "Snow"){
                 location.replace("/Snow.html");
+            }else {
+                return;
             }
             
         })
