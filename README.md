@@ -30,9 +30,4 @@
 <br><br><br>
 </div>
 
-<div align="center">
-  <h3>동작 화면</h3>
-  <img src="https://user-images.githubusercontent.com/109647831/226658165-46926d64-d332-4baa-8f77-e032bae0f51b.gif" /><br>
-  <img src="https://user-images.githubusercontent.com/109647831/226658696-efba003f-906e-465b-9d0c-2b6170753dce.gif" /><br>
-  <img src="https://user-images.githubusercontent.com/109647831/226659647-18aeaab9-0e31-47fd-89b1-131f17f1075e.gif" />										   
-</div>
+
