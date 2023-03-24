@@ -21,7 +21,9 @@ function onGeoOk(position) {
 
             const link =  document.location.pathname;
             console.log(link);
-            if(link != "/Clear.html" && today == "Clear"){
+            if(link == "/index.html"){
+                location.replace("./Clouds.html");
+            }else if(link != "/Clear.html" && today == "Clear"){
                 location.replace("./Clear.html");
             }else if(link != "/Clouds.html" && today == "Clouds"){
                 location.replace("./Clouds.html");
@@ -29,8 +31,6 @@ function onGeoOk(position) {
                 location.replace("./Rain.html");
             }else if(link != "/Snow.html" && today == "Snow"){
                 location.replace("./Snow.html");
-            }else if(link == "/index.html"){
-                location.replace("./Clouds.html");
             }else {
                 return;
             }
