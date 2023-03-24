@@ -1,7 +1,7 @@
 
 import{
     API_KEY
-}from './key.js';
+}from './Key.js';
 
 
 function onGeoOk(position) {
