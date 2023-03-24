@@ -81,11 +81,6 @@ canvas{
   background-color: rgb(214, 247, 255);
 }
 
-.Clear canvas{
-  width: 100%;
-  height: 100%;
-}
-
 .Clear h1 {
   font-size: 200px;
   font-family: 'Climate Crisis', cursive;
@@ -106,11 +101,6 @@ canvas{
 
 .Clouds_body{
   background-color: #b6bfcc;
-}
-
-.Clouds canvas{
-  width: 100%;
-  height: 100%;
 }
 
 .Clouds h1 {
@@ -158,11 +148,6 @@ canvas{
   background-color: rgb(196, 136, 253);
 }
 
-.Rain canvas{
-  width: 100%;
-  height: 100%;
-}
-
 .Rain h1 {
   font-size: 300px;
   font-family: 'Permanent Marker', cursive;
@@ -196,11 +181,6 @@ canvas{
 
 .Snow_body{
   background-color: #b6bfcc;
-}
-
-.Snow canvas{
-  width: 100%;
-  height: 100%;
 }
 
 .Snow h1 {
