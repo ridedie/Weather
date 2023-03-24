@@ -31,3 +31,14 @@
 </div>
 
 
+<div align="center">
+  <h3>동작 화면</h3>
+  <img src="https://user-images.githubusercontent.com/109647831/227556036-925624cd-1261-4d1f-9f57-af377cad4990.gif" />
+  <img src="https://user-images.githubusercontent.com/109647831/227556272-345aeb25-995a-4d0c-b1e0-34f293c45b96.gif" />
+  <img src="https://user-images.githubusercontent.com/109647831/227557022-640698ae-eae8-4a53-8e92-15e8e0634b78.gif" />
+  <img src="https://user-images.githubusercontent.com/109647831/227558194-d7346f12-15dd-4c97-bd41-2c7ad927aae9.gif" />
+
+</div>
+
+
+
