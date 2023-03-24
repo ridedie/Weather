@@ -20,14 +20,17 @@ function onGeoOk(position) {
             region.innerText = data.name;
 
             const link =  document.location.pathname;
+            console.log(link);
             if(link != "/Clear.html" && today == "Clear"){
-                location.replace("./clearl");
+                location.replace("./Clear.html");
             }else if(link != "/Clouds.html" && today == "Clouds"){
-                location.replace("./clouds");
+                location.replace("./Clouds.html");
             }else if(link != "/Rain.html" && today == "Rain"){
-                location.replace("./rain");
+                location.replace("./Rain.html");
             }else if(link != "/Snow.html" && today == "Snow"){
-                location.replace("./snow");
+                location.replace("./Snow.html");
+            }else if(link == "/index.html"){
+                location.replace("./Clouds.html");
             }else {
                 return;
             }
