@@ -21,13 +21,13 @@ function onGeoOk(position) {
 
             const link =  document.location.pathname;
             if(link != "/Clear.html" && today == "Clear"){
-                location.replace("/Clear.html");
+                location.replace("./Clear.html");
             }else if(link != "/Clouds.html" && today == "Clouds"){
-                location.replace("/Clouds.html");
+                location.replace("./Clouds.html");
             }else if(link != "/Rain.html" && today == "Rain"){
-                location.replace("/Rain.html");
+                location.replace("./Rain.html");
             }else if(link != "/Snow.html" && today == "Snow"){
-                location.replace("/Snow.html");
+                location.replace("./Snow.html");
             }else {
                 return;
             }
